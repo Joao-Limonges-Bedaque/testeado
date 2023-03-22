@@ -18,13 +18,17 @@ class calculator:
         self.numero1 = numero1
         self.numero2 = numero2
         print(f'Números trocados para {self.numero1} e {self.numero2}\n')
+    def eleva(self):
+        print(f'{self.numero1}  ^  {self.numero2}  =  {self.numero1**self.numero2}')
 c1 = calculator(15,5)
 c1.soma()
 c1.tira()
 c1.multiplica()
 c1.divide()
+c1.eleva()
 c1.novo(20,4)
 c1.soma()
 c1.tira()
 c1.multiplica()
 c1.divide()
+c1.eleva()
