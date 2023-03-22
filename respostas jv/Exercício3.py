@@ -9,3 +9,4 @@ while True:
     else:
         b.append(c)
 maiorLista(b)
+#podendo criar sua lista para leitura.
